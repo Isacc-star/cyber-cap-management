@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* Dashboard background */
+.dashboard-page {
+  background: url('/src/assets/dashboard-bg.png') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
