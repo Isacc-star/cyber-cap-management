@@ -12,6 +12,7 @@ WORKDIR /app
 
 # Install backend dependencies
 COPY backend/requirements.txt ./
+RUN pip install --no-cache-dir pyserial>=3.5
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy backend code
